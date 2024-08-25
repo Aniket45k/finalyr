@@ -1,11 +1,11 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://final-friends-dcpw.onrender.com',
+  baseURL: 'https://finalyr.onrender.com',
 })
 
 const protectedApi = axios.create({
-  baseURL: 'https://final-friends-dcpw.onrender.com',
+  baseURL: 'https://finalyr.onrender.com',
   timeout: 3 * 60 * 1000,
   headers: {
     common: {
